@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #e63946);
+  color: #fff;
+}
+
+header {
+  background: #e63946;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #f1c40f;
+  margin-top: 1rem;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.result-card .score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2ecc71;
+}
+.result-card .tag {
+  display: inline-block;
+  background: #f1c40f;
+  color: #000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.upcoming-card {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+  color: #fff;
+}
+.upcoming-card .tag {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  text-align: center;
+}
+th {
+  background: #f1c40f;
+  color: #000;
+}
+tr:nth-child(even) {
+  background: rgba(255,255,255,0.1);
+}
+.points {
+  font-weight: bold;
+  color: #2ecc71;
+}
+.goals {
+  font-weight: bold;
+  color: #f39c12;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.video-card p {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
